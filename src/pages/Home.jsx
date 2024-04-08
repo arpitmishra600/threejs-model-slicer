@@ -25,9 +25,9 @@ export default function Home() {
                 <h3 className='headingfont font-bold text-3xl flex-1 items-start w-full my-4'>Unleash<br/>Your Mental Marvels</h3>
                 <p className='flex-1 max-md:text-sm max-sm:text-sm'>Embark on a path of self-discovery with Manasvikaar, where the journey begins within. Unlock your inner potential as you delve into therapy, receive expert guidance, engage in journaling, and set meaningful goals, all tailored to empower you as the catalyst for your own mental transformation.</p>
             </div>
-            <div>
+            <div >
                 <button className='buttonsgrad px-3 py-2 text-white navfont rounded-lg buttonshadow mr-6' >Book Online Session</button>
-                <button className=' px-3 py-2 text-black navfont rounded-lg buttonshadow' >Our Services</button>
+                <button className='my-5 px-3 py-2 text-black navfont rounded-lg buttonshadow' >Our Services</button>
             </div>
         </div>
       </section>
