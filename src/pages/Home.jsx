@@ -19,7 +19,7 @@ export default function Home() {
     <div>
       <section> <Navbar/></section>
       <section className=' max-sm:px-0 h-[100vh] flex items-center justify-center'>
-        <div className='glassMorph bordergrad flex gap-[50px] flex-col p-10 w-[1000px] max-sm:mt-5'>
+        <div className='glassMorph bordergrad flex gap-[50px] flex-col p-10 w-[1000px] '>
         
             <div className='flex max-sm:flex-col gap-4'>
                 <h3 className='headingfont font-bold text-3xl flex-1 items-start w-full flex-1'>Unleash<br/>Your Mental Marvels</h3>
