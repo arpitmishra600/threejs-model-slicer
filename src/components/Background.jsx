@@ -31,7 +31,7 @@ export default function Background({ children }) {
 
   return (
     <div>
-      <section id="canvas">
+      <section id="canvas overflow-none">
         <div className="circle"></div>
       </section>
       {children}

@@ -9,11 +9,16 @@ body{
     box-sizing: border-box;
     overflow-x: hidden;
 }
+p{
+  font-family: Helvetica, Arial, sans-serif;
+    font-weight: normal;
+}
 .navfont {
     font-family: "Roboto Mono", monospace;
   }
 .headingfont{
     font-family: "Montserrat", sans-serif;
+    font-weight: 600;
 }
   .circle {
     position: absolute;
