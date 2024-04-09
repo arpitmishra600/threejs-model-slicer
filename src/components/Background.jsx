@@ -31,9 +31,9 @@ export default function Background({ children }) {
 
   return (
     <div>
-      <section id="canvas" className='max-md:hidden'>
+      <div id="canvas" className='max-md:hidden'>
         <div className="circle"></div>
-      </section>
+      </div>
       {children}
     </div>
   );

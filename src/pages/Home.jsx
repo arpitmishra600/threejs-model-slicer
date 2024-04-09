@@ -17,11 +17,11 @@ export default function Home() {
 // });
   return (
     <div>
-      <Navbar/>
+      <section> <Navbar/></section>
       <section className=' max-sm:px-0 h-[100vh] flex items-center justify-center'>
-        <div className='glassMorph bordergrad flex gap-[50px] flex-col p-10 w-[1000px]'>
+        <div className='glassMorph bordergrad flex gap-[50px] flex-col p-10 w-[1000px] max-sm:mt-10'>
         
-            <div className='flex max-sm:flex-col'>
+            <div className='flex max-sm:flex-col gap-4'>
                 <h3 className='headingfont font-bold text-3xl flex-1 items-start w-full flex-1'>Unleash<br/>Your Mental Marvels</h3>
                 <p className='flex text-sm max-md:text-sm max-sm:text-sm flex-[1.3]'>Embark on a path of self-discovery with Manasvikaar, where the journey begins within. Unlock your inner potential as you delve into therapy, receive expert guidance, engage in journaling, and set meaningful goals, all tailored to empower you as the catalyst for your own mental transformation.</p>
             </div>
