@@ -47,14 +47,15 @@ border-radius: 10px;
   .bordergrad{
 
     position: relative;
+    border-radius: 18px; 
   }
  .bordergrad::before {
     content: "";
     position: absolute;
     inset: 0;
-    border-radius: 10px; 
+    border-radius: 18px; 
     padding: 1px; 
-    background:linear-gradient(144deg, #dc6363 20%, #49c9d1, #0dc2cd); 
+    background:linear-gradient(90deg, rgba(250, 62, 62, 0.4544) 27%, #49c9d1, rgba(13, 194, 205, 0.5)); 
     -webkit-mask: 
        linear-gradient(#fff 0 0) content-box, 
        linear-gradient(#fff 0 0);

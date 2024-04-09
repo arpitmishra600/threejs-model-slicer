@@ -31,7 +31,7 @@ export default function Background({ children }) {
 
   return (
     <div>
-      <section id="canvas overflow-none">
+      <section id="canvas" className='max-md:hidden'>
         <div className="circle"></div>
       </section>
       {children}

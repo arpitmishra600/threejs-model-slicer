@@ -19,15 +19,15 @@ export default function Home() {
     <div>
       <Navbar/>
       <section className=' max-sm:px-0 h-[100vh] flex items-center justify-center'>
-        <div className='glassMorph bordergrad flex gap-[90px] flex-col p-7 w-[1024px]'>
+        <div className='glassMorph bordergrad flex gap-[50px] flex-col p-10 w-[1000px]'>
         
-            <div className='flex items-center max-sm:flex-col'>
-                <h3 className='headingfont font-bold text-3xl flex-1 items-start w-full my-4'>Unleash<br/>Your Mental Marvels</h3>
-                <p className='flex-1 max-md:text-sm max-sm:text-sm'>Embark on a path of self-discovery with Manasvikaar, where the journey begins within. Unlock your inner potential as you delve into therapy, receive expert guidance, engage in journaling, and set meaningful goals, all tailored to empower you as the catalyst for your own mental transformation.</p>
+            <div className='flex max-sm:flex-col'>
+                <h3 className='headingfont font-bold text-3xl flex-1 items-start w-full flex-1'>Unleash<br/>Your Mental Marvels</h3>
+                <p className='flex text-sm max-md:text-sm max-sm:text-sm flex-[1.3]'>Embark on a path of self-discovery with Manasvikaar, where the journey begins within. Unlock your inner potential as you delve into therapy, receive expert guidance, engage in journaling, and set meaningful goals, all tailored to empower you as the catalyst for your own mental transformation.</p>
             </div>
             <div >
                 <button className='buttonsgrad px-3 py-2 text-white navfont rounded-lg buttonshadow mr-6' >Book Online Session</button>
-                <button className='my-5 px-3 py-2 text-black navfont rounded-lg buttonshadow' >Our Services</button>
+                <button className='mt-5 px-3 py-2 text-black navfont rounded-lg buttonshadow relative' >Our Services</button>
             </div>
         </div>
       </section>
@@ -46,7 +46,7 @@ export default function Home() {
              <div className='flex flex-col gap-3 w-3/4 max-sm:w-full'>
         <p className=''>We're on a mission to make your mind marvelous. We provide a captivating blend of therapy, workshops, guides, and goal settings that will have you saying, "Wow, I'm unstoppable!"</p> 
         <p className=''>Our team of mental health wizards is here to sprinkle some enchantment on your journey to self-improvement. Get ready to unlock your potential and embrace a life filled with mental marvels. Welcome to Manasvikaar, where the magic of mental well-being comes alive!</p>
-        <button className='w-[130px] px-3 py-2 text-black navfont rounded-lg buttonshadow mt-10 mb-12' >About us</button>
+        <button className='w-[130px] px-3 py-2 text-black navfont rounded-lg buttonshadow mt-10 mb-12 relative' >About us</button>
       </div>
       
       <div className='flex border-t border-black  flex-col items-end pt-10 pb-20'>
