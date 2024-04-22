@@ -4,7 +4,7 @@ export default function Navbar() {
 	const [hamOpen,setHamOpen]=useState(false)
 	document.body.style.overflow=hamOpen?"hidden":"auto"
   return (
-    <div className='navfont flex justify-between border-b border-black absolute w-[100%] max-md:absolute z-10'>
+    <div className='navfont flex justify-between pt-7 max-md:pt-0 absolute w-[100%] max-md:absolute z-10'>
 		<div className='flex'>
 			<img src='./templogo.svg' className='w-[100px] h-[50px]' style={{flex:1}}></img>
 	      <div className="navbar-container px-20 py-3 flex max-md:justify-end max-md:flex-col">

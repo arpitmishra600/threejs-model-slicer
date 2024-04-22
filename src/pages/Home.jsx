@@ -2,24 +2,12 @@ import React from 'react'
 import Navbar from '../components/Navbar'
 
 export default function Home() {
-//   window.addEventListener('scroll', function() {
-//     var element = document.getElementById('statichead');
-//     var elementRect = element.getBoundingClientRect(); // Get the element's position relative to the viewport
-//     var viewportHeight = window.innerHeight; // Height of the viewport
 
-//     if (elementRect.bottom < 0 || elementRect.top > viewportHeight) {
-//         // Element has passed out of the window
-//         console.log('Element has passed out of the window');
-//     } else {
-//         // Element is still visible in the window
-//         console.log('Element is still visible in the window');
-//     }
-// });
   return (
     <div>
       <section> <Navbar/></section>
       <section className=' max-sm:px-0 h-[100vh] flex items-center justify-center'>
-        <div className='glassMorph bordergrad flex gap-[50px] flex-col p-10 w-[1000px] '>
+        <div className='glassMorph bordergrad flex gap-[50px] flex-col p-10 max-w-[1000px] '>
         
             <div className='flex max-sm:flex-col gap-4'>
                 <h3 className='headingfont font-bold text-3xl flex-1 items-start w-full flex-1'>Unleash<br/>Your Mental Marvels</h3>
@@ -33,59 +21,61 @@ export default function Home() {
       </section>
 
 
-      <section className='px-[10%] md:px-[5%] max-sm:px-0 h-[100vh] flex items-center justify-center'>
+      <section className='max-sm:px-0 h-[100vh] flex items-center justify-center'>
         <img src='./yogagirl.svg'></img>
       </section>
 
-      <section className='px-[12%] max-md:px-[5%] max-sm:px-0 flex flex-col items-center justify-center'>
-      <h3 className='headingfont font-bold text-3xl flex-1 items-start w-full m-10 px-7 max-sm:text-center'>Welcome, to Manasvikar</h3>
-
-      
-
-      <div className='bordergrad glassMorph p-10'>
-             <div className='flex flex-col gap-3 w-3/4 max-sm:w-full'>
-        <p className=''>We're on a mission to make your mind marvelous. We provide a captivating blend of therapy, workshops, guides, and goal settings that will have you saying, "Wow, I'm unstoppable!"</p> 
-        <p className=''>Our team of mental health wizards is here to sprinkle some enchantment on your journey to self-improvement. Get ready to unlock your potential and embrace a life filled with mental marvels. Welcome to Manasvikaar, where the magic of mental well-being comes alive!</p>
-        <button className='w-[130px] px-3 py-2 text-black navfont rounded-lg buttonshadow mt-10 mb-12 relative' >About us</button>
-      </div>
-      
-      <div className='flex border-t border-black  flex-col items-end pt-10 pb-20'>
-      <div className='absolute h-[75%] left-0 p-10 pt-4 max-sm:hidden'><span id='statichead' className='headingfont font-bold text-3xl flex-1 items-start w-full my-4 top-0 sticky relative' >Here’s how<br/>we help</span></div>
-        <div className='first w-1/2 max-sm:w-full'>
-        <h3 className='headingfont font-bold text-3xl flex-1 items-start w-full my-4'>Journaling</h3>
-      <p className='text-sm pt-3 pb-20 pr-5'>Do you feel like your thoughts are a tangled mess? Journaling can be a quiet and comforting friend. Listen to your inner voice with our guided journaling prompts. It's a cozy corner just for you, where you can write freely, explore your feelings, and discover a lot as you watch your journey page by page.</p>
-      <button className='buttonsgrad px-3 py-2 text-white navfont rounded-lg buttonshadow mr-6' >Book Online Session</button>
-        </div>
-      </div>
-
-      <div className='flex border-t border-black flex-col items-end pt-10 pb-20'>
-        <div className='w-1/2 max-sm:w-full'>
-        <h3 className='headingfont font-bold text-3xl flex-1 items-start w-full my-4'>Guides</h3>
-      <p className='text-sm pt-3 pb-20 pr-5'>Explore our library of clear and helpful guides on managing stress, anxiety, and more. Learn evidence based tips and techniques to build resilience and self-love, so you can navigate life's ups and downs with greater ease. Take charge of your well-being, one step at a time.</p>
-      <button className='buttonsgrad px-3 py-2 text-white navfont rounded-lg buttonshadow mr-6' >Book Online Session</button>
-        </div>
-      </div>
-
-      <div className='flex border-t border-black flex-col items-end pt-10 pb-20'>
-        <div className='w-1/2 max-sm:w-full'>
-        <h3 className='headingfont font-bold text-3xl flex-1 items-start w-full my-4'>Workshops</h3>
-      <p className='text-sm pt-3 pb-20 pr-5'>Want to learn easy ways to feel better? Our workshops with mental health experts can help. We cover things like stress reduction, mindfulness, and communication, all in a friendly and supportive environment. Join us for a beautiful mental health journey.</p>
-      <button className='buttonsgrad px-3 py-2 text-white navfont rounded-lg buttonshadow mr-6' >Book Online Session</button>
+      <section className='max-sm:px-0 flex flex-col items-center justify-center pb-0'>
+      <div className='max-w-[1000px]'>
+        <h3 className='headingfont font-bold text-3xl flex-1 items-start w-full py-7 px-10 max-sm:text-center'>Welcome, to Manasvikar</h3>
+  
+        
+  
+        <div className='bordergrad glassMorph p-10'>
+               <div className='flex flex-col gap-3 w-3/4 max-sm:w-full'>
+          <p className=''>We're on a mission to make your mind marvelous. We provide a captivating blend of therapy, workshops, guides, and goal settings that will have you saying, "Wow, I'm unstoppable!"</p> 
+          <p className=''>Our team of mental health wizards is here to sprinkle some enchantment on your journey to self-improvement. Get ready to unlock your potential and embrace a life filled with mental marvels. Welcome to Manasvikaar, where the magic of mental well-being comes alive!</p>
+          <button className='w-[130px] px-3 py-2 text-black navfont rounded-lg buttonshadow mt-10 mb-12 relative' >About us</button>
         </div>
         
-      </div>  
+        <div className='flex border-t border-black  flex-col items-end pt-10 pb-20'>
+        <div className='absolute h-[75%] left-0 p-10 pt-4 max-sm:hidden'><span id='statichead' className='headingfont font-bold text-3xl flex-1 items-start w-full my-4 top-0 sticky relative' >Here’s how<br/>we help</span></div>
+          <div className='first w-1/2 max-sm:w-full'>
+          <h3 className='headingfont font-bold text-3xl flex-1 items-start w-full my-4'>Journaling</h3>
+        <p className='text-sm pt-3 pb-20 pr-5'>Do you feel like your thoughts are a tangled mess? Journaling can be a quiet and comforting friend. Listen to your inner voice with our guided journaling prompts. It's a cozy corner just for you, where you can write freely, explore your feelings, and discover a lot as you watch your journey page by page.</p>
+        <button className='buttonsgrad px-3 py-2 text-white navfont rounded-lg buttonshadow mr-6' >Book Online Session</button>
+          </div>
+        </div>
+  
+        <div className='flex border-t border-black flex-col items-end pt-10 pb-20'>
+          <div className='w-1/2 max-sm:w-full'>
+          <h3 className='headingfont font-bold text-3xl flex-1 items-start w-full my-4'>Guides</h3>
+        <p className='text-sm pt-3 pb-20 pr-5'>Explore our library of clear and helpful guides on managing stress, anxiety, and more. Learn evidence based tips and techniques to build resilience and self-love, so you can navigate life's ups and downs with greater ease. Take charge of your well-being, one step at a time.</p>
+        <button className='buttonsgrad px-3 py-2 text-white navfont rounded-lg buttonshadow mr-6' >Book Online Session</button>
+          </div>
+        </div>
+  
+        <div className='flex border-t border-black flex-col items-end pt-10 pb-10'>
+          <div className='w-1/2 max-sm:w-full'>
+          <h3 className='headingfont font-bold text-3xl flex-1 items-start w-full my-4'>Workshops</h3>
+        <p className='text-sm pt-3 pb-20 pr-5'>Want to learn easy ways to feel better? Our workshops with mental health experts can help. We cover things like stress reduction, mindfulness, and communication, all in a friendly and supportive environment. Join us for a beautiful mental health journey.</p>
+        <button className='buttonsgrad px-3 py-2 text-white navfont rounded-lg buttonshadow mr-6' >Book Online Session</button>
+          </div>
+          
+        </div>  
+        </div>
       </div>
    
 
       </section>
 
-      <section className='px-[10%] md:px-[5%] max-sm:px-0 h-[100vh] flex items-center justify-center'>
+      <section className='max-sm:px-0 h-[100vh] flex items-center justify-center'>
         <h3 className='headingfont font-bold text-3xl max-sm:text-center'>“You didn’t come this far, only to come this far”</h3>
       </section>
 
-      <section className='px-[12%] max-md:px-[5%] max-sm:px-0 flex flex-col justify-center'>
+      <section className='max-sm:px-0 flex flex-col justify-center items-center'>
 
-        <div className='flex flex-col bordergrad p-10 '>
+        <div className='flex flex-col bordergrad p-10 max-w-[1000px]'>
         <h3 className='headingfont font-bold text-3xl w-full items-start mb-10'>Here’s how we help</h3>
         <div className='flex gap-6 pt-10 border-t border-black max-sm:flex-col max-sm:gap-0 '>
             <div className='flex-1'>

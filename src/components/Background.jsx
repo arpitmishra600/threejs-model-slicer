@@ -7,11 +7,13 @@ export default function Background({ children }) {
     let mouseY = 0;
 
     function moveCircle() {
-      const dx = (mouseX - parseInt(circle.style.left || 0)) * 0.1;
-      const dy = (mouseY - parseInt(circle.style.top || 0)) * 0.1;
-
-      circle.style.left = parseInt(circle.style.left || 0) + dx + 'px';
-      circle.style.top = parseInt(circle.style.top || 0) + dy + 'px';
+      setTimeout(() => {
+        const dx = (mouseX - parseInt(circle.style.left || 0)) * 0.06;
+        const dy = (mouseY - parseInt(circle.style.top || 0)) * 0.06;
+  
+        circle.style.left = parseInt(circle.style.left || 0) + dx + 'px';
+        circle.style.top = parseInt(circle.style.top || 0) + dy + 'px';
+      }, 1000);
 
       requestAnimationFrame(moveCircle);
     }
