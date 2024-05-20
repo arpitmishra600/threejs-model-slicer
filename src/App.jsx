@@ -3,6 +3,7 @@ import './App.css'
 import Home from './pages/Home'
 import Background from './components/Background'
 
+
 function App() {
 
 
@@ -10,6 +11,7 @@ function App() {
     <Routes>
 
       <Route path="/" element={<Background><Home/></Background>} />
+      
      
       
     </Routes>

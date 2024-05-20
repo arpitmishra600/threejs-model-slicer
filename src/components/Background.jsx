@@ -31,6 +31,8 @@ export default function Background({ children }) {
     };
   }, []);
 
+  
+
   return (
     <div>
       <div id="canvas" className='max-md:hidden'>
