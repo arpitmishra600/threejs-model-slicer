@@ -6,7 +6,7 @@ import Div1 from '../components/hocs/Div1'
 export default function Home() {
 
   return (
-    <div>
+    <div className='relative'>
       <section> <Navbar/></section>
       <section className=' max-sm:px-0 h-[100vh] flex items-center justify-center'>
 
@@ -133,6 +133,9 @@ export default function Home() {
         
       </section>
       <Footer/>
+      <div class="box">
+  <div class="box-inner"></div>
+</div>
     </div>
   )
 }
