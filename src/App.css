@@ -1,13 +1,14 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
 html{
-  scroll-snap-type:y proximity;
+  scroll-snap-type:y mandatory;
   scroll-behavior: smooth;
 }
 section{
-  scroll-snap-align: center ;
+  scroll-snap-align: start ;
   scroll-snap-stop: always;
   scroll-behavior: smooth;
+  scroll-margin-top:20px ;
 }
 body{
     margin: 0;
@@ -79,7 +80,8 @@ border-radius: 10px;
 
 
   body {	
-    background: linear-gradient(to bottom, #0B486B, #2AF598, #fec051, #FEE140, #F56217 );
+    /* background: linear-gradient(to bottom, #0B486B, #2AF598, #fec051, #FEE140, #F56217 ); */
+    background: linear-gradient(to bottom, #0b486bab, #2af598a3, #fec0519e, #fee1409c, #f562179c);
     background-size: 100%;
     background-repeat: no-repeat;
   }
