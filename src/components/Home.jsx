@@ -108,12 +108,12 @@ useEffect(()=>console.log(preview),[preview])
           <boxGeometry args={[1, 1, 1]} />
           <meshStandardMaterial color='orange' />
         </mesh>
-       <TransformControls object={meshRef}>
+       {/* <TransformControls object={meshRef}>
           <mesh {...(disect ? binder3() : {})} position={position.p3} ref={meshRef}>
             <boxGeometry args={[1, 1, 1]} />
             <meshStandardMaterial color='orange' />
           </mesh>
-       </TransformControls>
+       </TransformControls> */}
         <Model binder={{b4,b5,b6,b7,b8,b9,b10,b11,b12,b13,b14,b15,b16,b17}}/>
       </group>
 
