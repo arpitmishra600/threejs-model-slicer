@@ -6,6 +6,7 @@ export default function ContextHoc({ children }) {
   const [preview, setPreview] = useState(false);
   const [disect, setDisect] = useState(false);
   const [reset, setReset] = useState(false);
+  const [aniplay,setAniPlay]=useState(true)
   const [position, setPosition] = useState({
     p1: [1.5, 3, 0.5],
     p2: [1.5, 1, 0.5],
@@ -55,7 +56,7 @@ export default function ContextHoc({ children }) {
         disect,
         setDisect,
         reset,
-        setReset
+        setReset,aniplay,setAniPlay
       }}
     >
       {children}

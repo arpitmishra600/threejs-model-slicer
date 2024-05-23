@@ -1,12 +1,27 @@
-import React, { useRef } from 'react'
+import React, { useEffect, useRef } from 'react'
 import { useGLTF, useAnimations, OrbitControls } from '@react-three/drei'
 import { useContextHook } from '../context/useContextHook'
-
+import * as THREE from 'three'
 export function Model(props) {
-      const {preview,initialpos,position, setPosition,disect}=useContextHook()
+      const {preview,initialpos,position, setPosition,disect,aniplay}=useContextHook()
   const group = useRef()
   const { nodes, materials, animations } = useGLTF('/mod/scene.gltf')
+
   const { actions } = useAnimations(animations, group)
+  useEffect(() => {
+    if(aniplay){
+        Object.values(actions).forEach(action => action.play())
+    }else{
+        Object.values(actions).forEach(action => action.stop())
+    }
+    
+  }, [actions,aniplay])
+  useEffect(() => {
+console.log(aniplay)
+    
+  }, [aniplay])
+  
+  console.log(actions) 
   return (
     <group ref={group} {...props} dispose={null} rotation-y={1.5*Math.PI}>
     
