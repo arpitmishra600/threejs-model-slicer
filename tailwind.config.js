@@ -5,7 +5,8 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
       fontFamily:{
-        'roboto-mono':["Roboto Mono", "monospace"]
+        'roboto-mono':["Roboto Mono", "monospace"],
+        'nunito':["Nunito", "sans-serif"]
       },
   theme: {
     extend: {},

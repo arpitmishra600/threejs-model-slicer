@@ -6,6 +6,7 @@ import BottomNav from './components/BottomNav'
 import Alerts from './components/Alerts'
 
 
+
 function App() {
 
 
@@ -27,6 +28,8 @@ function App() {
     </div>
      
       } />
+   
+      
    
      
       
